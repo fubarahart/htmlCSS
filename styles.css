@@ -1,0 +1,81 @@
+body {
+    margin: 50px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo p {
+    margin-left: 10px;
+    font-weight: bold;
+    color:rgba(4, 170, 182, 0.945);
+    transition: transform 0.3s ease;
+}
+.nav-logo p:hover {
+    transform: scale(1.1);
+    text-transform: uppercase;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+.hero1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: rgba(4, 170, 182, 0.945);
+
+}
+.hero2 {
+    display: flex;
+    gap: 20px;    
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 25px;
+}
+.patients {
+    background-color: rgba(4, 170, 182, 0.945);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+.doctors {
+    background-color: rgba(54, 147, 253, 0.945);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+.clinics {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
