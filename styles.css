@@ -1,6 +1,10 @@
 body {
-    margin: 50px;
     font-family: Arial, sans-serif;
+    justify-content: center;
+}
+header, .hero, .services, .logos {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 header {
@@ -49,7 +53,6 @@ header img {
     align-items: center;
     height: 15vh;
     color: rgba(4, 170, 182, 0.945);
-
 }
 .hero2 {
     display: flex;
@@ -57,9 +60,12 @@ header img {
 }
 .services {
     display: flex;
-    justify-content: space-between;
     margin-top: 50px;
     gap: 25px;
+    justify-content:center;
+    height: 35vh;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .patients {
     background-color: rgba(4, 170, 182, 0.945);
@@ -78,4 +84,38 @@ header img {
     padding: 20px;
     border-radius: 10px;
     color: white;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+    height: 15vh;
+}
+.logos p {
+    color: rgba(4, 170, 182, 0.945);
+}
+.logos1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logos img {
+    width: auto;
+    height: 15px;    
+}
+.hero3 {
+    background-color: rgba(147, 238, 218, 0.945);
+    height: 50vh;
+}.hero3-content {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.hero3a img {
+    width: 300px;
+    height: auto;
 }
