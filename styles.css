@@ -119,3 +119,14 @@ header img {
     width: 300px;
     height: auto;
 }
+.countries {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countries.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
