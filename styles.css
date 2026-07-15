@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     justify-content: center;
 }
-header, .hero, .services, .logos {
+header, .hero, .services, .logos, .countries, .hero5 {
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -119,14 +119,47 @@ header img {
     width: 300px;
     height: auto;
 }
-.countries {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.countries.content {
+
+.countries-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content {
+    margin: 10px;
+}
+.content img {
+    border-radius: 10px;
+
+}
+.button {
+    background-color: rgba(3, 85, 238, 0.671);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    border-color: chartreuse;
+    border-width: 5px;
+}
+.hero5 {
+    display: grid;
+    justify-content: center;
+    height: 30vh;
+
+}
+.hero5 button {
+    padding: 15px;
+}
+.hero5-content {
+    padding-top: 50px;
+}
+.hero5-content p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size:x-large
 }
